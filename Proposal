@@ -1,0 +1,25 @@
+Proposal
+
+What will (likely) be the title of your project?
+Tennis Elo/Prediction Model
+
+In just a sentence or two, summarize your project. (E.g., "A website that lets you buy and sell stocks.")
+A prediction model that aggregates professional Tennis match data to predict scores in upcoming matches factoring in pressure, form, etc. It would also serve as a crude elo model
+
+In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
+The project should at its core serve as a multifaceted elo model that creates separate elos based off of different classifications. Elo under pressure, on a specific court surface,
+and pretty much just be as comprehensive as possible.
+
+In the world of software, most everything takes longer to implement than you expect. And so it's not uncommon to accomplish less in a fixed amount of time than you hope.
+In a sentence (or list of features), define a GOOD outcome for your final project. I.e., what WILL you accomplish no matter what?
+A good outcome would be for me at least some sort of basic prediction model that could take match data and generate an elo rating without factoring pressure, form, etc.
+
+In a sentence (or list of features), define a BETTER outcome for your final project. I.e., what do you THINK you can accomplish before the final project's deadline?
+A better outcome would be if I could factor in historical precedents for a specific situation.
+
+In a sentence (or list of features), define a BEST outcome for your final project. I.e., what do you HOPE to accomplish before the final project's deadline?
+The best outcome would be a very specific prediction model that factors things such as location, court surface, as well as the other factors priorly mentioned.
+
+In a paragraph or more, outline your next steps. What new skills will you need to acquire? What topics will you need to research? If working with one of two classmates, who will do what?
+My next step is definitely to set up some sort of data sorter in python. I think I'm going to use Jeff Sackmann's github repo tennis.atp and try to set up some basic elo model from that. 
+And then I'll go from there to factor in ratings by surface and win-momentum statistics.
